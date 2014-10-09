@@ -1,0 +1,33 @@
+ftw_beer_count_count:
+    resource: "@FTWBeerCountBundle/Resources/config/routing/count.yml"
+    prefix:   /count
+
+ftw_beer_count_friend:
+    resource: "@FTWBeerCountBundle/Resources/config/routing/friend.yml"
+    prefix:   /friend
+
+ftw_beer_count_bar:
+    resource: "@FTWBeerCountBundle/Resources/config/routing/bar.yml"
+    prefix:   /bar
+
+
+
+
+ftw_beer_count_api_count:
+    resource: "@FTWBeerCountBundle/Resources/config/routing/api/count.yml"
+    prefix:   /api
+
+ftw_beer_count_api_friend:
+    resource: "@FTWBeerCountBundle/Resources/config/routing/api/friend.yml"
+    prefix:   /api
+
+ftw_beer_count_api_bar:
+    type: rest
+    resource: "@FTWBeerCountBundle/Resources/config/routing/api/bar.yml"
+    prefix:   /api
+
+
+
+ftw_beer_count_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FTWBeerCountBundle:Default:index }

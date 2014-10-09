@@ -1,0 +1,30 @@
+# count:
+#     path:     /
+#     defaults: { _controller: "FTWBeerCountBundle:Count:index" }
+
+# count_show:
+#     path:     /{id}/show
+#     defaults: { _controller: "FTWBeerCountBundle:Count:show" }
+
+# count_new:
+#     path:     /new
+#     defaults: { _controller: "FTWBeerCountBundle:Count:new" }
+
+# count_create:
+#     path:     /create
+#     defaults: { _controller: "FTWBeerCountBundle:Count:create" }
+#     requirements: { _method: post }
+
+# count_edit:
+#     path:     /{id}/edit
+#     defaults: { _controller: "FTWBeerCountBundle:Count:edit" }
+
+# count_update:
+#     path:     /{id}/update
+#     defaults: { _controller: "FTWBeerCountBundle:Count:update" }
+#     requirements: { _method: post|put }
+
+# count_delete:
+#     path:     /{id}/delete
+#     defaults: { _controller: "FTWBeerCountBundle:Count:delete" }
+#     requirements: { _method: post|delete }

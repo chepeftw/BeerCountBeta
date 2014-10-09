@@ -1,0 +1,24 @@
+bar_api:
+    path:     /bars
+    defaults: { _controller: "FTWBeerCountBundle:BarApi:list" }
+    requirements: { _method: get }
+
+bar_show_api:
+    path:     /bars/{id}
+    defaults: { _controller: "FTWBeerCountBundle:BarApi:show" }
+    requirements: { _method: get }
+
+bar_create_api:
+    path:     /bars
+    defaults: { _controller: "FTWBeerCountBundle:BarApi:create" }
+    requirements: { _method: post }
+
+bar_update_api:
+    path:     /bars/{id}
+    defaults: { _controller: "FTWBeerCountBundle:BarApi:update" }
+    requirements: { _method: put }
+
+bar_delete_api:
+    path:     /bars/{id}
+    defaults: { _controller: "FTWBeerCountBundle:BarApi:delete" }
+    requirements: { _method: delete }

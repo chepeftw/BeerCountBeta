@@ -1,0 +1,4 @@
+ftw_beer_count:
+    resource: "@FTWBeerCountBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -3,7 +3,7 @@
 # Installs packages
 #
 class greattools {
-  package { ['curl', 'vim']:
+  package { ['curl', 'vim', 'language-pack-en']:
     ensure => present;
   }
 }

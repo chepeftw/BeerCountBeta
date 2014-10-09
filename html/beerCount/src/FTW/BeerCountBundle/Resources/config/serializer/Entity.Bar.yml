@@ -1,0 +1,9 @@
+FTW\BeerCountBundle\Entity\Bar:
+  exclusion_policy: ALL
+  properties:
+    name:
+      expose: true
+    description:
+      expose: true
+    location:
+      expose: true

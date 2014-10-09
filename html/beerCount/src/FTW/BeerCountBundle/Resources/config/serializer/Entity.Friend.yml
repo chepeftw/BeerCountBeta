@@ -1,0 +1,13 @@
+FTW\BeerCountBundle\Entity\Bar:
+  exclusion_policy: ALL
+  properties:
+    name:
+      expose: true
+    email:
+      expose: true
+    nickname:
+      expose: true
+    favoriteBeer:
+      expose: true
+    count:
+      expose: true
